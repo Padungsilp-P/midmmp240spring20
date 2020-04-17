@@ -1,0 +1,252 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <style>
+            th{
+                height: 300px;
+            }
+            table{
+                padding: 50px;
+                margin: 0 auto;
+                min-width: 1000px;
+            }
+            .pages{
+                text-align: center;
+                padding: 20px;
+                list-style: none;
+                background: #fff;
+                min-width: 1000px;
+            }
+            .menu{
+                text-align: left;
+                background: #f4c9d2;
+            }
+            .search{
+                margin: 0 auto;
+                box-sizing: 130px;
+            }
+            .imgsearch{
+                height: 200px;
+                width: 300px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p class="logo">craigslist</p>
+            <img src="assets/img/Main-Genesee-1(2).jpg" class="imgheader">
+            <div class="cab pad">
+                <div class="tetopic"><h1 class="dpab">Apartment</h1></div>
+            </div>
+            <nav>
+                    <ul>
+                        <li><a href="">New York</a></li>
+                        <li><h1>></h1></li>
+                        <li><a href="">New Jersey</a></li>
+                        <li><h1>></h1></li>
+                        <li><a href="">Housing</a></li>
+                        <li><h1>></h1></li>
+                        <li><a href="">Apt</a></li>
+                        <li><h1>></h1></li>
+                        <li><a href="">Housing for rent</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><a href="">Create Post</a></li>
+                        <li><h1>|</h1></li>
+                        <li><a href="">Login</a></li>
+
+                    </ul>
+                </nav>
+        </header>
+            
+        <table>
+            <tr><th colspan="6"><label class="search">Search <input type="text" name="searchapt" placeholder=" search" size="110"> Filter</label></th></tr>
+            <tr class="menu">
+                <th>
+                    <label><input type="checkbox" name="apt" value="apt"> apts/housing for rent</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> search titles only</label>
+                    <br><label><input type="checkbox" name="image" value="img"> has image</label>
+                    <br><label><input type="checkbox" name="today" value="today"> posted today</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> bundle duplicates</label>
+                    <br><br><p>MILES FROM ZIP</p><label><input type="text" name="zip" size="15"></label>
+                    <br><p>Price</p><label><input type="text" name="minprice" placeholder="min" size="5"> - <input type="text" name="maxprice" placeholder="max" size="5"></label>
+                </th>
+                <th>
+                    <p>BEDROOMS</p><label><input type="text" name="minprice" placeholder="min" size="5"> - <input type="text" name="maxprice" placeholder="max" size="5"></label>
+                    <p>BATHROOMS</p><label><input type="text" name="minprice" placeholder="min" size="5"> - <input type="text" name="maxprice" placeholder="max" size="5"></label>
+                    <p>FT2</p><label><input type="text" name="minprice" placeholder="min" size="5"> - <input type="text" name="maxprice" placeholder="max" size="5"></label>
+                    <p>AVAILABILITY</p>
+                    <select name="ava" required>
+				        <option value="1">All Day</option>
+				        <option value="2">New Jersey</option>
+				        <option value="3">Connecticut</option>
+			         </select>
+                </th>
+                <th>
+                    <label><input type="checkbox" name="apt" value="apt"> cats ok</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> dog ok</label>
+                    <br><label><input type="checkbox" name="image" value="img"> furnished</label>
+                    <br><label><input type="checkbox" name="today" value="today"> no smoking</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> wheelchair accrss</label>
+                    <br><label><input type="checkbox" name="apt" value="apt"> EV charging</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> no application fee</label>
+                    <br><label><input type="checkbox" name="image" value="img"> no broker fee</label> 
+                </th>
+                <th>
+                    <p>Housing type</p><br>
+                    <label><input type="checkbox" name="apt" value="apt"> apartment</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> condo</label>
+                    <br><label><input type="checkbox" name="image" value="img"> cottage / cabin</label>
+                    <br><label><input type="checkbox" name="today" value="today"> duplex</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> flat</label>
+                    <br><label><input type="checkbox" name="apt" value="apt"> house</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> in-law</label>
+                    <br><label><input type="checkbox" name="image" value="img"> loft</label>
+                    <br><label><input type="checkbox" name="today" value="today"> townhose</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> manufactured</label>
+                    <br><label><input type="checkbox" name="today" value="today"> assisted living</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> land</label>
+                </th>
+                <th>
+                    <p>Laundry</p>
+                    <br>
+                    <label><input type="checkbox" name="apt" value="apt"> w/d in unit</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> w/d hookups</label>
+                    <br><label><input type="checkbox" name="image" value="img"> laundry in bldg</label>
+                    <br><label><input type="checkbox" name="today" value="today"> laundry on site</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> no laundry on site</label>
+                </th>
+                <th>
+                    <p>Parking</p><br>
+                    <label><input type="checkbox" name="apt" value="apt"> carport</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> attached garage</label>
+                    <br><label><input type="checkbox" name="image" value="img"> detached garage</label>
+                    <br><label><input type="checkbox" name="today" value="today"> off-street parking</label>
+                    <br><label><input type="checkbox" name="dup" value="dup"> street parking</label>
+                    <br><label><input type="checkbox" name="apt" value="apt"> valet parking</label>
+                    <br><label><input type="checkbox" name="titleonly" value="titleonly"> no parking</label>
+                </th>
+            </tr>
+        </table>
+        <nav class="pages">
+            <ul>
+                <li><a href="">Page</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><p>...</p></li>
+                <li><a href="">1200</a></li>
+                <li><a href="">>></a></li>
+                <li id="pr"><a href="">newlest</a></li>
+            </ul>
+        </nav>
+        
+        <table>
+            <tr>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00D0D_3Sl0NFTS7nJ_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00D0D_gnPV3Y6YCdL_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00k0k_7LU4x7rnk8k_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+            </tr>
+            <tr>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00l0l_7U0HbCxH80Y_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00p0p_2XBQ9E5EAFr_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00r0r_6aS8xR6XT9b_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+            </tr>
+            <tr>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00U0U_4v6FOBcXhQw_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00U0U_vwOgn75GDz_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00X0X_dIm8QNy0H7G_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+            </tr>
+            <tr>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/00404_1PHa5SXu0yY_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/01212_9GZZaGZozJJ_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+                <th><a href="detail.html">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <img src="assets/img/01414_5IvnZ3hsLcL_300x300.jpg" class="imgsearch">
+                    <p>$3000</p></a>
+                </th>
+            </tr>
+        </table>
+        <nav class="pages">
+            <ul>
+                <li><a href="">Page</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><p>...</p></li>
+                <li><a href="">1200</a></li>
+                <li><a href="">>></a></li>
+                <li id="pr"><a href="">^top</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="">help</a></li>
+                    <li><a href="">sefety</a></li>
+                    <li><a href="">private</a></li>
+                    <li><a href="">feedback</a></li>
+                    <li><a href="">cl jobs</a></li>
+                    <li><a href="">termnew</a></li>
+                    <li><a href="">about</a></li>
+                    <p class="p20">craigslist</p>
+                </ul>
+            </nav>
+        </footer>
+        
+    </body>
+</html>

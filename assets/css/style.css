@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    color : black;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-style: bold;  
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    max-width: 100%;
+    min-width:1000px;
+    text-align: center;
+}
+.imgheader{
+    max-width: 100%;
+}
+.logo{
+    color: white;
+    background: black;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    
+}
+#conl{
+    width: 1000px;
+    background: #f4c9d2;
+    height: 320px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#conr{
+    width: 1000px;
+    background: white;
+    height: 320px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#topicl{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#topicr{
+    height: 300px;
+    float: right;
+}
+.tconl{
+    padding: 20px;
+    float: right;
+    text-align: left;
+    width: 600px
+}
+.tconr{
+    padding: 20px;
+    float: left;
+    text-align: left;
+    width: 600px
+}
+nav{
+    background: #b82837;
+}
+footer{
+    min-width:1000px;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: #b82837;
+    text-align: center;
+}
+#pl{
+    float:  left;
+}
+#pr{
+    float: right;
+}
+
+.p20{
+    padding: 20px;
+}
+.pab {
+    position: relative;
+    padding: 50px;
+}
+
+.cab {
+    position: absolute;
+    top: 25%;
+    left : 0;
+    right: 0;
+    padding: 10px;
+}
+.tetopic{
+    animation: me 1s linear 1;
+    display: inline-block;
+    background: rgba(255,255,255, .8);
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+}
+.dpab{
+    margin-top: 90px;
+}
+@keyframes me{
+                0%{
+                   opacity: 0; 
+                }
+                100%{
+                    opacity: 1;
+                }
+            }
